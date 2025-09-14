@@ -13,5 +13,12 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  rabbitmq:
+    addresses: amqps://collie.lmq.cloudamqp.com
+    username: jskyccxh
+    password: UbxAcQH0XqwCtUlfXyobOxBEtfZY8MU5
+    virtual-host: jskyccxh
+
 server:
   port: 8081

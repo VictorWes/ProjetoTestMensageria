@@ -16,7 +16,7 @@ public class UserProducer {
         this.rabbitTemplate = rabbitTemplate;
     }
 
-    public void sendUserCreatedEvent(UserModel userModel){
+    public void publishEvent(UserModel userModel){
 
         var emailDto = new EmailDto();
         emailDto.setUserId(userModel.getUserId());
@@ -28,7 +28,6 @@ public class UserProducer {
                 "",
                 routingkey,
                 emailDto);
-
     }
 
 

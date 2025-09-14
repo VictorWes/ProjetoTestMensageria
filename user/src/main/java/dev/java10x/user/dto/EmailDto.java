@@ -2,7 +2,7 @@ package dev.java10x.user.dto;
 
 import java.util.UUID;
 
-public class EmailDto{
+public class EmailDto {
 
     private UUID userId;
     private String emailTo;
