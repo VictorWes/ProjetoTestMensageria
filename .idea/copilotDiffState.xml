@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/email/.env">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/email/.env" />
+              <option name="originalContent" value="SMTP_USERNAME=victor.infowb@gmail.com&#10;SMTP_PASSWORD=sua-senha-ou-app-password&#10;RABBITMQ_ADDRESSES=amqps://collie.lmq.cloudamqp.com&#10;RABBITMQ_USERNAME=jskyccxh&#10;RABBITMQ_PASSWORD=UbxAcQH0XqwCtUlfXyobOxBEtfZY8MU5&#10;RABBITMQ_VIRTUAL_HOST=jskyccxhspring&#10;" />
+              <option name="updatedContent" value="SMTP_USERNAME=victor.infowb@gmail.com&#10;SMTP_PASSWORD=sua-senha-ou-app-password&#10;RABBITMQ_ADDRESSES=amqps://collie.lmq.cloudamqp.com&#10;RABBITMQ_USERNAME=jskyccxh&#10;RABBITMQ_PASSWORD=UbxAcQH0XqwCtUlfXyobOxBEtfZY8MU5&#10;RABBITMQ_VIRTUAL_HOST=jskyccxhspring&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/email/src/main/resources/application.yml">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/email/src/main/resources/application.yml" />
+              <option name="originalContent" value="spring:&#10;  datasource:&#10;    url: jdbc:postgresql://localhost:5433/ms_email_ms&#10;    username: postgres-email&#10;    password: postgres-email&#10;    driver-class-name: org.postgresql.Driver&#10;&#10;  jpa:&#10;    hibernate:&#10;      ddl-auto: update&#10;&#10;    show-sql: true&#10;    properties:&#10;      hibernate:&#10;        dialect: org.hibernate.dialect.PostgreSQLDialect&#10;&#10;  rabbitmq:&#10;    addresses: ${RABBITMQ_ADDRESSES}&#10;    username: ${RABBITMQ_USERNAME}&#10;    password: ${RABBITMQ_PASSWORD}&#10;    virtual-host: ${RABBITMQ_VIRTUAL_HOST}&#10;&#10;  mail:&#10;    host: smtp.gmail.com&#10;    port: 587&#10;    username: ${SMTP_USERNAME}&#10;    password: ${SMTP_PASSWORD}&#10;    properties:&#10;      mail:&#10;        smtp:&#10;          auth: true&#10;          starttls:&#10;            enable: true&#10;&#10;  flyway:&#10;    enabled: true&#10;    locations: classpath:db/migration&#10;    baseline-on-migrate: true&#10;&#10;server:&#10;  port: 8080" />
+              <option name="updatedContent" value="spring:&#10;  datasource:&#10;    url: jdbc:postgresql://localhost:5433/ms_email_ms&#10;    username: postgres-email&#10;    password: postgres-email&#10;    driver-class-name: org.postgresql.Driver&#10;&#10;  jpa:&#10;    hibernate:&#10;      ddl-auto: update&#10;&#10;    show-sql: true&#10;    properties:&#10;      hibernate:&#10;        dialect: org.hibernate.dialect.PostgreSQLDialect&#10;&#10;  rabbitmq:&#10;    addresses: ${RABBITMQ_ADDRESSES}&#10;    username: ${RABBITMQ_USERNAME}&#10;    password: ${RABBITMQ_PASSWORD}&#10;    virtual-host: ${RABBITMQ_VIRTUAL_HOST}&#10;&#10;  mail:&#10;    host: smtp.gmail.com&#10;    port: 587&#10;    username: ${SMTP_USERNAME}&#10;    password: ${SMTP_PASSWORD}&#10;    properties:&#10;      mail:&#10;        smtp:&#10;          auth: true&#10;          starttls:&#10;            enable: true&#10;&#10;  flyway:&#10;    enabled: true&#10;    locations: classpath:db/migration&#10;    baseline-on-migrate: true&#10;&#10;server:&#10;  port: 8080" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
